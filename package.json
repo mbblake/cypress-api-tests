@@ -1,0 +1,28 @@
+{
+  "name": "cypress-api-tests",
+  "version": "1.0.0",
+  "description": "Test repo for demonstrating api testing using Cypress",
+  "main": "index.js",
+  "scripts": {
+    "start-server": "npx json-server-auth db.json -r routes.json",
+    "test": "npx cypress run --browser chrome",
+    "cypress": "npx start-server-and-test start-server http://localhost:3000 test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattBlakeQA/cypress-api-tests.git"
+  },
+  "author": "Matt Blake",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MattBlakeQA/cypress-api-tests/issues"
+  },
+  "homepage": "https://github.com/MattBlakeQA/cypress-api-tests#readme",
+  "dependencies": {
+    "cypress": "^12.6.0",
+    "cypress-mochawesome-reporter": "^3.3.0",
+    "json-server": "^0.17.2",
+    "json-server-auth": "^2.1.0",
+    "start-server-and-test": "^1.15.4"
+  }
+}
