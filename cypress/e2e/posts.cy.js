@@ -221,7 +221,7 @@ describe("/posts endpoint test suite", () => {
     });
 
     describe("DELETE", () => {
-        describe("DELETE /posts/1", () => {
+        describe("DELETE /posts/:id", () => {
             it("Should return JSON", () => {
                 cy.request("DELETE", "/posts/1").then((res) => {
                     expect(res.status).to.equal(200);
