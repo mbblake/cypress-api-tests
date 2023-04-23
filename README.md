@@ -7,7 +7,7 @@ Demonstration of using Cypress to run API tests against a basic, locally-running
 ### Installing
 
 -   Install git
--   Clone the repo: `git clone https://github.com/MattBlakeQA/cypress-api-tests.git`
+-   Clone the repo: `git clone https://github.com/mbblake/cypress-api-tests.git`
 -   Install Node 18+
 -   Install NPM
 -   Install Chrome
